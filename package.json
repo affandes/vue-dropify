@@ -1,0 +1,28 @@
+{
+  "name": "vue-dropify",
+  "version": "1.0.0",
+  "description": "Vue wrapper for Dropify",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/affandes/vue-dropify.git"
+  },
+  "keywords": [
+    "vue-dropify",
+    "dropify",
+    "vue"
+  ],
+  "author": {
+    "name": "Muhammad Affandes",
+    "email": "affandes@gmail.com",
+    "web": "https://twitter.com/affandes"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/affandes/vue-dropify/issues"
+  },
+  "homepage": "https://github.com/affandes/vue-dropify#readme"
+}
