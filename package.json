@@ -1,8 +1,8 @@
 {
-  "name": "vue-dropify",
-  "version": "1.0.0",
+  "name": "affandes-vue-dropify",
+  "version": "1.0.2",
   "description": "Vue wrapper for Dropify",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,10 @@
     "dropify",
     "vue"
   ],
+  "files": [
+    "dist",
+    "src"
+  ],
   "author": {
     "name": "Muhammad Affandes",
     "email": "affandes@gmail.com",
@@ -24,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/affandes/vue-dropify/issues"
   },
-  "homepage": "https://github.com/affandes/vue-dropify#readme"
+  "homepage": "https://github.com/affandes/vue-dropify#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  }
 }

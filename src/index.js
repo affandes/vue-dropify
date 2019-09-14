@@ -1,5 +1,5 @@
-import _VueDropify_ from './components/VueDropify'
-import {_registerComponent, _use} from "./utils/plugins";
+import _VueDropify_ from '../src/components/VueDropify/VueDropify'
+import {_registerComponent, _use} from "../src/utils/plugins";
 
 const VueDropify = {
     install(Vue) {
