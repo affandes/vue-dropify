@@ -1,6 +1,6 @@
 {
   "name": "affandes-vue-dropify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue wrapper for Dropify",
   "main": "dist/index.js",
   "scripts": {
@@ -17,7 +17,8 @@
   ],
   "files": [
     "dist",
-    "src"
+    "src",
+    "README.md"
   ],
   "author": {
     "name": "Muhammad Affandes",
@@ -33,5 +34,10 @@
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "dropify": "^0.2.2",
+    "vue": "^2.6.10"
   }
 }
